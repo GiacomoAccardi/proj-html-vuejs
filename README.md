@@ -63,3 +63,20 @@ vostra giornata tipo.
 
 In bocca al lupo e buon divertimento!
 
+
+
+<!-- ---------------------Tabella di marcia-------------------- -->
+
+-Creazione del progetto:
+    1. Creazione di file e cartelle necessarie
+    2. Importazione di assets 
+    3. Installazione di pacchetti necessari 
+
+-Realizzazione sito web:
+    1. Creazione di un layout indicativo a blocchi colorati per tirar su la struttura del sito
+    2. stilizzazione componenti:
+        > Header  <!-- Prevedo di arrivare a questo punto entro le 18:00 della giornata corrente (29/08/2024) -->
+        > Main
+        > Footer <!-- Prevedo di arrivare a questo punto entro le ore 16:00 del 30/08/2024 -->
+    3. Revisione delle singole aree della pagina (con aggiunta di effetti hover, etc..)
+    4. Rifinitura e correzioni
