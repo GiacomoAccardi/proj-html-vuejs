@@ -92,7 +92,4 @@ export default {
     width: calc(100% / 2);
 }
 
-.g-100{
-    gap: 80px;
-}
 </style>
