@@ -13,9 +13,11 @@ export default{
 </script>
 
 <template>
-
+  <AppHeader />
+  <AppMain />
+  <AppFooter/>
 </template>
 
-<style scoped>
+<style lang="scss">
 @import "./styles/generals.scss";
 </style>
