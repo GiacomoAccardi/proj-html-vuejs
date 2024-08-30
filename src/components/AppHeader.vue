@@ -46,7 +46,7 @@ export default {
         <div class="container1200 d-flex">
             <div class="content d-flex">
                 <div class="col-4 d-flex align-center">
-                    <img src="../assets/images/classic_shop_logo1x.png" alt="logo-hdr">
+                    <img src="../../public/assets/images/classic_shop_logo1x.png" alt="logo-hdr">
                 </div>
                 <div class="col-8">
                     <div class="h-70 d-flex align-center">

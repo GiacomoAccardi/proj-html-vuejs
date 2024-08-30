@@ -34,25 +34,25 @@ export default {
                 </div>
                 <div class="prod-box d-flex">
                     <div class="cell">
-                        <img src="../assets/images/black_elegant_leather_jacket.jpg" alt="p1">
+                        <img src="../../public/assets/images/black_elegant_leather_jacket.jpg" alt="p1">
                         <h4>Black Leather Jacket</h4>
                         <span>Men, Jackets, Jeans</span>
                         <p><span>$235 </span>$200</p>
                     </div>
                     <div class="cell">
-                        <img src="../assets/images/black_leather_suit.jpg" alt="p2">
+                        <img src="../../public/assets/images/black_leather_suit.jpg" alt="p2">
                         <h4>Black Leather suit</h4>
                         <span>Men, Jackets</span>
                         <p>$176</p>
                     </div>
                     <div class="cell">
-                        <img src="../assets/images/blue_jacket_and_white_stripe_tee.jpg" alt="p3">
+                        <img src="../../public/assets/images/blue_jacket_and_white_stripe_tee.jpg" alt="p3">
                         <h4>Blue Jacket & stripe tee</h4>
                         <span>Men, Jackets, Suits</span>
                         <p>$580</p>
                     </div>
                     <div class="cell">
-                        <img src="../assets/images/modern_black_leather_suit.jpg" alt="p4">
+                        <img src="../../public/assets/images/modern_black_leather_suit.jpg" alt="p4">
                         <h4>Modern Black Leather suit</h4>
                         <span>Men, Jackets</span>
                         <p>$96</p>
@@ -63,11 +63,38 @@ export default {
     </div>
 
     <!-- collections -->
-    <div>
-        <div class="content h-400 d-flex">
-            <div class="col-4 layout-db"></div>
-            <div class="col-4 layout-db"></div>
-            <div class="col-4 layout-db"></div>
+    <div class="collections">
+        <div class="d-flex">
+            <div class="col-4 ">
+                <div class="content relative d-flex">
+                    <img src="../../public/assets/images/winter_collection_bg.jpg" alt="wbg">
+                    <div class="text-box">
+                        <h1>Winter collection</h1>
+                        <span>STYLISH AND WARM</span>
+                        <button class="btn-glassy">View More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 relative">
+                <div class="content relative d-flex">
+                    <img src="../../public/assets/images/spring_collection_bg.jpg" alt="scg">
+                    <div class="text-box">
+                        <h1>Spring collection</h1>
+                        <span>BRIGHT AND COLORFULL</span>
+                        <button class="btn-glassy">View More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 relative">
+                <div class="content relative d-flex">
+                    <img src="../../public/assets/images/autumn_collection_bg.jpg" alt="acg">
+                    <div class="text-box">
+                        <h1>Autumn collection</h1>
+                        <span>RICH AND COMFORTABLE</span>
+                        <button class="btn-glassy">View More</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -136,7 +163,7 @@ export default {
 }
 
 .brand-jumbo{
-    background-image: url(../assets/images/home1_slide_three_bg_2.jpg);
+    background-image: url(../../public/assets/images/home1_slide_three_bg_2.jpg);
     background-size: contain;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -154,12 +181,8 @@ export default {
             margin: 10px 0 20px;
         }
 
-        .btn-glassy{
-            background-color: rgba(255, 255, 255, 0.158);
-            color: white;
+        .btn-glassy {
             padding: 10px 25px;
-            border: 2px solid white;
-            border-radius: 20px;
         }
     }
 }
@@ -240,6 +263,41 @@ export default {
                 }
             }
         }
+    }
+}
+
+.collections{
+    .content{
+        img{
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .text-box{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            left: 25%;
+            top: 60%;
+            text-align: center;
+
+            h1{
+                color: white;
+            }
+
+            span{
+                margin: 20px 0;
+                color: variables.$almostwhite;
+            }
+
+            .btn-glassy {
+                width: 150px;
+                padding: 10px 0;
+                margin-left: 55px;
+            }
+        }
+
     }
 }
 
