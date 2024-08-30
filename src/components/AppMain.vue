@@ -8,7 +8,7 @@ export default {
 <main>
     
     <!--new arrival's-->
-    <div class="brand-jumbo ">
+    <div class="brand-jumbo">
         <div class="container1200">
             <div class="content d-flex flex-column align-center">
                 <h1>Brand New Arrivals</h1>
@@ -22,8 +22,44 @@ export default {
     </div>
 
     <!-- fetured products -->
-    <div class="container1200 layout-db">
-        <div class="content d-flex flex-column h-400 layout-db mt-100 mb-100"></div>
+    <div class="featured-products">
+        <div class="container1200">
+            <div class="content d-flex flex-column align-center">
+                <h1>Featured Products</h1>
+                <span>Must have products from our top sellers</span>
+                <div class="selection-box d-flex">
+                    <div class="cell br-mygrey bg-white">Man</div>
+                    <div class="cell br-mygrey">Woman</div>
+                    <div class="cell">Accessories</div>
+                </div>
+                <div class="prod-box d-flex">
+                    <div class="cell">
+                        <img src="../assets/images/black_elegant_leather_jacket.jpg" alt="p1">
+                        <h4>Black Leather Jacket</h4>
+                        <span>Men, Jackets, Jeans</span>
+                        <p><span>$235 </span>$200</p>
+                    </div>
+                    <div class="cell">
+                        <img src="../assets/images/black_leather_suit.jpg" alt="p2">
+                        <h4>Black Leather suit</h4>
+                        <span>Men, Jackets</span>
+                        <p>$176</p>
+                    </div>
+                    <div class="cell">
+                        <img src="../assets/images/blue_jacket_and_white_stripe_tee.jpg" alt="p3">
+                        <h4>Blue Jacket & stripe tee</h4>
+                        <span>Men, Jackets, Suits</span>
+                        <p>$580</p>
+                    </div>
+                    <div class="cell">
+                        <img src="../assets/images/modern_black_leather_suit.jpg" alt="p4">
+                        <h4>Modern Black Leather suit</h4>
+                        <span>Men, Jackets</span>
+                        <p>$96</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- collections -->
@@ -126,8 +162,85 @@ export default {
             border-radius: 20px;
         }
     }
+}
 
+.featured-products{
+    padding: 100px 0;
+    position: relative;
 
+    .content{
+        border-top: 1px solid variables.$mylightgrey;
+
+        h1{
+            position: absolute;
+            top: 80px;
+            background-color: white;
+            width:400px;
+            text-align: center;
+        }
+
+        span{
+            margin-top: 25px;
+            color: variables.$mygrey;
+        }
+
+        .selection-box{
+            width: 500px;
+            height: 50px;
+            margin-top: 50px;
+            background-color: variables.$almostwhite;
+            border: 1px solid variables.$mylightgrey;
+
+            .cell{
+                width: calc(100% / 3);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .br-mygrey{
+                border-right: 1px solid variables.$mylightgrey;
+            }
+
+            .bg-white{
+                background-color: white;
+            }
+        }
+
+        .prod-box{
+            width: 100%;
+            margin-top: 50px;
+
+            .cell{
+                width: calc(100% / 4);
+                display: flex;
+                flex-direction: column;
+
+                img{
+                    object-fit: contain;
+                }
+
+                h4{
+                    margin-top: 20px;
+                }
+
+                span {
+                    margin-top: 10px;
+                    color: variables.$mylightgrey;
+                }
+
+                p{
+                    margin-top: 20px;
+                    color: variables.$myblue;
+
+                    span{
+                        color: variables.$myblue;
+                        text-decoration: line-through; 
+                    }
+                }
+            }
+        }
+    }
 }
 
 </style>
