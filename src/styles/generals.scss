@@ -32,7 +32,7 @@ body {
 }
 
 .justify-center {
-    justify-content: center;
+    justify-self: center;
 }
 
 .flex-column {
@@ -45,6 +45,10 @@ body {
 
 .layout-db {
     border: 2px solid black;
+}
+
+.txt-center {
+    text-align: center;
 }
 
 // column system ----------------------------------------------------------------------------------||||||||||||||||||||||||||||
@@ -115,4 +119,24 @@ body {
 
 .g-100 {
     gap: 80px;
+}
+
+.ps-10 {
+    padding: 0 20px
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+//-------------------------------------
+//Buttons
+
+.blue-btn {
+    color: white;
+    background-color: #427ED1;
+    padding: 8px 20px;
+    border-radius: 15px;
+    border: none;
+
 }

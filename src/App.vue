@@ -8,12 +8,48 @@ export default{
     AppHeader,
     AppMain, 
     AppFooter
+  },
+  data() {
+    return {
+      headerMenu: [
+        { 
+          id: 1,
+          name: "Home",
+          url: "#" 
+        },
+        { 
+          id: 2,
+          name: "Hop",
+          url: "#" 
+        },
+        { 
+          id: 3,
+          name: "Products",
+          url: "#" 
+        },
+        { 
+          id: 4,
+          name: "Categories",
+          url: "#" 
+        },
+        { 
+          id: 5,
+          name: "News",
+          url: "#" 
+        },
+        { 
+          id: 6,
+          name: "Elements",
+          url: "#" 
+        }
+      ],
+    }
   }
 }
 </script>
 
 <template>
-  <AppHeader />
+  <AppHeader :headerMenu="headerMenu" />
   <AppMain />
   <AppFooter/>
 </template>
