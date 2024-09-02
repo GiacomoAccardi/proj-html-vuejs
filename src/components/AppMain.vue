@@ -28,31 +28,51 @@ export default {
                 <h1>Featured Products</h1>
                 <span>Must have products from our top sellers</span>
                 <div class="selection-box d-flex">
-                    <div class="cell br-mygrey bg-white">Man</div>
+                    <div class="cell br-mygrey">Man</div>
                     <div class="cell br-mygrey">Woman</div>
                     <div class="cell">Accessories</div>
                 </div>
                 <div class="prod-box d-flex">
                     <div class="cell">
                         <img src="../../public/assets/images/black_elegant_leather_jacket.jpg" alt="p1">
+                        <div class="hover-color">
+                            <div class="icon">
+                                <i class="fa-solid fa-square-check"></i>
+                            </div>
+                        </div>
                         <h4>Black Leather Jacket</h4>
                         <span>Men, Jackets, Jeans</span>
                         <p><span>$235 </span>$200</p>
                     </div>
                     <div class="cell">
                         <img src="../../public/assets/images/black_leather_suit.jpg" alt="p2">
+                        <div class="hover-color">
+                            <div class="icon">
+                                <i class="fa-solid fa-square-check"></i>
+                            </div>
+                        </div>
                         <h4>Black Leather suit</h4>
                         <span>Men, Jackets</span>
                         <p>$176</p>
                     </div>
                     <div class="cell">
                         <img src="../../public/assets/images/blue_jacket_and_white_stripe_tee.jpg" alt="p3">
+                        <div class="hover-color">
+                            <div class="icon">
+                                <i class="fa-solid fa-square-check"></i>
+                            </div>
+                        </div>
                         <h4>Blue Jacket & stripe tee</h4>
                         <span>Men, Jackets, Suits</span>
                         <p>$580</p>
                     </div>
                     <div class="cell">
                         <img src="../../public/assets/images/modern_black_leather_suit.jpg" alt="p4">
+                        <div class="hover-color">
+                            <div class="icon">
+                                <i class="fa-solid fa-square-check"></i>
+                            </div>
+                        </div>
                         <h4>Modern Black Leather suit</h4>
                         <span>Men, Jackets</span>
                         <p>$96</p>
@@ -160,22 +180,107 @@ export default {
 
             <div class="cell-5">
                 <img src="../../public/assets/images/black_elegant_leather_jacket.jpg" alt="p1">
+                <div class="hover-color">
+                    <div class="texts">
+                        <h5>Modern Love Tee</h5>
+                        <p>Women, T-Shirt</p>
+                        <h4>$64</h4>
+                        <div class="buttons-text d-flex">
+                            <div class="d-flex align-center">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p>Add to cart</p>
+                            </div>
+                            <div class="d-flex align-center">
+                                <i class="fa-solid fa-bars"></i>
+                                <p>Details</p>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="cell-5">
                 <img src="../../public/assets/images/hipster_black_top.jpg" alt="p2">
+                <div class="hover-color">
+                    <div class="texts">
+                        <h5>Modern Love Tee</h5>
+                        <p>Women, T-Shirt</p>
+                        <h4>$64</h4>
+                        <div class="buttons-text d-flex">
+                            <div class="d-flex align-center">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p>Add to cart</p>
+                            </div>
+                            <div class="d-flex align-center">
+                                <i class="fa-solid fa-bars"></i>
+                                <p>Details</p>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="cell-5">
                 <img src="../../public/assets/images/black_leather_suit.jpg" alt="p3">
+                <div class="hover-color">
+                    <div class="texts">
+                        <h5>Modern Love Tee</h5>
+                        <p>Women, T-Shirt</p>
+                        <h4>$64</h4>
+                        <div class="buttons-text d-flex">
+                            <div class="d-flex align-center">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p>Add to cart</p>
+                            </div>
+                            <div class="d-flex align-center">
+                                <i class="fa-solid fa-bars"></i>
+                                <p>Details</p>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="cell-5">
                 <img src="../../public/assets/images/spring_printed_dress.jpg" alt="p4">
+                <div class="hover-color">
+                    <div class="texts">
+                        <h5>Modern Love Tee</h5>
+                        <p>Women, T-Shirt</p>
+                        <h4>$64</h4>
+                        <div class="buttons-text d-flex">
+                            <div class="d-flex align-center">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p>Add to cart</p>
+                            </div>
+                            <div class="d-flex align-center">
+                                <i class="fa-solid fa-bars"></i>
+                                <p>Details</p>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="cell-5">
                 <img src="../../public/assets/images/modern_love_tee.jpg" alt="p5">
+                <div class="hover-color">
+                    <div class="texts">
+                        <h5>Modern Love Tee</h5>
+                        <p>Women, T-Shirt</p>
+                        <h4>$64</h4>
+                        <div class="buttons-text d-flex">
+                            <div class="d-flex align-center">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p>Add to cart</p>
+                            </div>
+                            <div class="d-flex align-center">
+                                <i class="fa-solid fa-bars"></i>
+                                <p>Details</p>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <button class="btn-next">></button>
@@ -477,6 +582,12 @@ export default {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
+                &:hover{
+                    background-color: white;
+                    transition: 0.3s;
+                }
+
             }
 
             .br-mygrey{
@@ -496,9 +607,44 @@ export default {
                 width: calc(100% / 4);
                 display: flex;
                 flex-direction: column;
+                position: relative;
+
+                &:hover .hover-color{
+                    opacity: 90%;
+                    transition: 0.5s;
+                }
 
                 img{
                     object-fit: contain;
+                }
+
+                .hover-color{
+                    position: absolute;
+                    width: 100%;
+                    height: 80%;
+                    background: rgb(66,126,209);
+                    background: linear-gradient(180deg, rgba(66,126,209,1) 41%, rgba(212,139,184,1) 78%);
+                    opacity: 0%;
+
+
+                    .icon{
+                        background-color: #2B2E32;
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 30pt;
+                        position: absolute;
+                        top: 41%;
+                        left: 37%;
+                        
+                        i{
+                            color: white;
+                            margin-left: 10px;
+                        }
+                    }
                 }
 
                 h4{
@@ -656,6 +802,50 @@ export default {
 .button-special{
     .btn-next, .btn-prev{
         top: 40%;
+    }
+}
+
+.cell-5{
+    position: relative;
+
+    &:hover .hover-color{
+        opacity: 90%;
+        transition: 0.5s;
+    }
+
+
+
+    .hover-color{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgb(66,126,209);
+        background: linear-gradient(180deg, rgba(66,126,209,1) 41%, rgba(212,139,184,1) 78%);
+        opacity: 0%;
+        top: 0;
+
+        .texts{
+            width: 100%;
+            height: 100%;
+            color: white;
+            text-align: center;
+            position: absolute;
+            padding: 150px 30px 0 30px;
+
+            p{
+                font-size: 10pt;
+                margin: 10px 0;
+            }
+
+            .buttons-text{
+                margin-top: 100px;
+                justify-content: space-between;
+
+                i{
+                    color: white;
+                }
+            }
+        }
     }
 }
 

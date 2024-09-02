@@ -157,11 +157,21 @@ body {
     border: none;
 }
 
+.blue-btn:hover {
+    background-color: #D48BB8;
+    transition: 0.3s;
+}
+
 .btn-glassy {
     background-color: rgba(255, 255, 255, 0.158);
     color: white;
     border: 2px solid white;
     border-radius: 20px;
+}
+
+.btn-glassy:hover {
+    background-color: #D48BB8;
+    transition: 0.3s;
 }
 
 //------------------------------
