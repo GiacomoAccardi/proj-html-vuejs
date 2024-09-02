@@ -7,7 +7,7 @@ export default {
 <template>
 <main>
     
-    <!--new arrival's-->
+    <!--new arrival's ------------------------------------------------------------------------>
     <div class="brand-jumbo">
         <div class="container1200">
             <div class="content d-flex flex-column align-center">
@@ -21,7 +21,7 @@ export default {
         </div>
     </div>
 
-    <!-- fetured products -->
+    <!-- fetured products ------------------------------------------------------------------------>
     <div class="featured-products">
         <div class="container1200">
             <div class="content d-flex flex-column align-center">
@@ -62,7 +62,7 @@ export default {
         </div>
     </div>
 
-    <!-- collections -->
+    <!-- collections ------------------------------------------------------------------------>
     <div class="collections">
         <div class="d-flex">
             <div class="col-4 ">
@@ -98,7 +98,7 @@ export default {
         </div>
     </div>
 
-    <!-- bestseller -->
+    <!-- bestseller ------------------------------------------------------------------------>
     <div class="sellers-products">
         <div class="container1200 relative">
             <div class="content d-flex flex-column align-center relative">
@@ -128,7 +128,7 @@ export default {
         </div>
     </div>
 
-    <!-- discount and free shipping -->
+    <!-- discount and free shipping ------------------------------------------------------------------------>
     <div class="jumbo-confetti">
         <div class="container1200">
             <div class="col-12 d-flex g-100">
@@ -146,37 +146,44 @@ export default {
         </div>
     </div>
 
-    <!-- new arrivals -->
+    <!-- new arrivals ------------------------------------------------------------------------>
     <div class="sellers-products new-arrivals">
-        <div class="relative">
+        <div class="container1200 relative">
             <div class="content d-flex flex-column align-center relative">
                 <h1 id="w-240">New Arrivals</h1>
                 <span>Brand new products from top designers</span>
                 <div class="prod-box d-flex">
-                    <div class="cell-5">
-                        <img src="../../public/assets/images/black_elegant_leather_jacket.jpg" alt="p1">
-                    </div>
-                    <div class="cell-5">
-                        <img src="../../public/assets/images/hipster_black_top.jpg" alt="p2">
-                    </div>
-                    <div class="cell-5">
-                        <img src="../../public/assets/images/black_leather_suit.jpg" alt="p3">
-                    </div>
-                    <div class="cell-5">
-                        <img src="../../public/assets/images/spring_printed_dress.jpg" alt="p4">
-                    </div>
-                    <div class="cell-5">
-                        <img src="../../public/assets/images/modern_love_tee.jpg" alt="p5">
-                    </div>
                 </div>
             </div>
+        </div>
+        <div class="button-special d-flex relative">
+
+            <div class="cell-5">
+                <img src="../../public/assets/images/black_elegant_leather_jacket.jpg" alt="p1">
+            </div>
+
+            <div class="cell-5">
+                <img src="../../public/assets/images/hipster_black_top.jpg" alt="p2">
+            </div>
+
+            <div class="cell-5">
+                <img src="../../public/assets/images/black_leather_suit.jpg" alt="p3">
+            </div>
+
+            <div class="cell-5">
+                <img src="../../public/assets/images/spring_printed_dress.jpg" alt="p4">
+            </div>
+
+            <div class="cell-5">
+                <img src="../../public/assets/images/modern_love_tee.jpg" alt="p5">
+            </div>
+
             <button class="btn-next">></button>
             <button class="btn-prev"><</button>
-
         </div>
     </div>
 
-    <!-- quote -->
+    <!-- quote ------------------------------------------------------------------------>
     <div class="quote-jumbo">
         <div class="container1200">
             <div class="content d-flex flex-column align-center">
@@ -191,7 +198,7 @@ export default {
         </div>
     </div>
 
-    <!-- from our blog -->
+    <!-- from our blog ------------------------------------------------------------------------>
     <div class="sellers-products from-ourblog">
         <div class="container1200 relative">
             <div class="content d-flex flex-column align-center relative">
@@ -223,7 +230,7 @@ export default {
 
     <hr>
 
-    <!-- featured, on sale, top rated, latest reviews -->
+    <!-- featured, on sale, top rated, latest reviews ------------------------------------------------------------------------>
     <div class="featured">
         <div class="container1200">
             <div class="content d-flex">
@@ -410,6 +417,8 @@ export default {
     padding: 100px 0;
 }
 
+
+// regole css per la sezione "Brand New Arrivals" ----------------------------------------------------------------------
 .brand-jumbo{
     background-image: url(../../public/assets/images/home1_slide_three_bg_2.jpg);
     background-size: contain;
@@ -435,6 +444,7 @@ export default {
     }
 }
 
+// regole css per la sezione "Featured Products" ----------------------------------------------------------------------
 .featured-products, .sellers-products{
     padding: 100px 0;
     position: relative;
@@ -514,6 +524,7 @@ export default {
     }
 }
 
+// regole css per la sezione "Collections" ----------------------------------------------------------------------
 .collections{
     .content{
         img{
@@ -549,6 +560,7 @@ export default {
     }
 }
 
+// regole css per la sezione "Best Sellers" ----------------------------------------------------------------------
 .sellers-products{
     .cell-5{
         width: calc(100% / 5);
@@ -592,6 +604,8 @@ export default {
     top: -20px;
 }
 
+
+// regole css per la sezione "Off" e "Free Shipping" ----------------------------------------------------------------------
 .jumbo-confetti{
     height: 400px;
     background-image: url(../../public/assets/images/bkgd_confetti-compressor.jpg);
@@ -637,6 +651,15 @@ export default {
     }
 }
 
+// regole css per la sezione "New Arrivals" ----------------------------------------------------------------------
+
+.button-special{
+    .btn-next, .btn-prev{
+        top: 40%;
+    }
+}
+
+// regole css per la sezione "Quote" ----------------------------------------------------------------------
 .quote-jumbo {
     background-image: url(../../public/assets/images/testimonials_home_1_bg.jpg);
     height: 450px;
@@ -676,6 +699,7 @@ export default {
     }
 }
 
+// regole css per la sezione "From our Blog" ----------------------------------------------------------------------
 .from-ourblog{
 
     #w-300{
@@ -704,6 +728,8 @@ export default {
     }
 }
 
+
+// regole css per la sezione "Featured, On Sale, Top Rated e latest reviews" ----------------------------------------------------------------------
 .featured{
     .container1200{
         display: flex;
