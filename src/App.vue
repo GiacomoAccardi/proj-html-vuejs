@@ -43,6 +43,25 @@ export default{
           url: "#" 
         }
       ],
+
+      footerMenu: [
+        {
+          name: "",
+          url: "#"
+        },
+        {
+          name: "",
+          url: "#"
+        },
+        {
+          name: "",
+          url: "#"
+        },
+        {
+          name: "",
+          url: "#"
+        },
+      ],
     }
   }
 }
@@ -51,7 +70,7 @@ export default{
 <template>
   <AppHeader :headerMenu="headerMenu" />
   <AppMain />
-  <AppFooter/>
+  <AppFooter :footerMenu="footerMenu" />
 </template>
 
 <style lang="scss">

@@ -22,10 +22,19 @@ export default {
         </div>
      </div>
     <!-- subscribe! -->
-    <div>
+    <div class="bg-grey1">
         <div class="container1200">
-            <div class="content d-flex">
-                <div class="col-12 h-100 layout-db"></div>
+            <div class="content d-flex align-center">
+                <div class="d-flex align-center">
+                    <div class="icon d-flex align-center">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <h2>Subscribe now and get special offers</h2>
+                </div>
+                <div>
+                    <input type="email" class="email" placeholder="Insert your email">
+                    <button class="blue-btn">SEND</button>
+                </div>
             </div>
         </div>
     </div>
@@ -80,6 +89,47 @@ export default {
         .around{
             width: 100%;
             justify-content: space-around;
+        }
+    }
+}
+
+.bg-grey1{
+    background-color: #303337;
+    height: 175px;
+
+    .content{
+        height: 175px;
+        justify-content: space-around;
+
+        .icon{
+            height: 50px;
+            width: 50px;
+            background-color: #2B2E32;
+            border-radius: 30px;
+            margin-right: 25px;
+
+            i{
+                color: variables.$mylightgrey;
+                font-size: 18pt;
+                margin-left: 13px;
+            }
+            
+        }
+
+        h2{
+            color: white;
+        }
+
+        .email{
+            border-radius: 20px;
+            padding: 5px;
+            width: 200px;
+            margin-top: 10px;
+            margin-right: 20px;
+        }
+
+        .blue-btn{
+            padding: 5px 30px;
         }
     }
 }
