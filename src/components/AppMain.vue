@@ -99,33 +99,95 @@ export default {
     </div>
 
     <!-- bestseller -->
-    <div>
-        <div class="container1200">
-            <div class="content d-flex flex-column h-400 layout-db mt-100"></div>
+    <div class="sellers-products">
+        <div class="container1200 relative">
+            <div class="content d-flex flex-column align-center relative">
+                <h1 id="w-240">Best Sellers</h1>
+                <span>Must have products from our top sellers</span>
+                <div class="prod-box d-flex">
+                    <div class="cell-5">
+                        <img src="../../public/assets/images/spring_printed_dress.jpg" alt="p1">
+                    </div>
+                    <div class="cell-5">
+                        <img src="../../public/assets/images/modern_love_tee.jpg" alt="p2">
+                    </div>
+                    <div class="cell-5">
+                        <img src="../../public/assets/images/black_leather_jacket.jpg" alt="p3">
+                    </div>
+                    <div class="cell-5">
+                        <img src="../../public/assets/images/black_elegant_leather_jacket.jpg" alt="p4">
+                    </div>
+                    <div class="cell-5">
+                        <img src="../../public/assets/images/hipster_black_top.jpg" alt="p4">
+                    </div>
+                </div>
+            </div>
+            <button class="btn-next">></button>
+            <button class="btn-prev"><</button>
+
         </div>
     </div>
 
     <!-- discount and free shipping -->
-    <div>
-        <div class="container1200 d-flex h-400 layout-db">
-            <div class="col-12 d-flex align-center g-100">
-                <div class="box layout-db"></div>
-                <div class="box layout-db"></div>
+    <div class="jumbo-confetti">
+        <div class="container1200">
+            <div class="col-12 d-flex g-100">
+                <div class="box box-discount d-flex">
+                    <h1>70% Off</h1>
+                    <span>Vivamus temepor leo lacus, feugiat <br> ut magne aliquam erat.</span>
+                    <button class="btn-glassy">VIEW MORE</button>
+                </div>
+                <div class="box box-freeshipping d-flex">
+                    <h1>Free Shipping</h1>
+                    <span>Vivamus temepor leo lacus, feugiat <br> ut magne aliquam erat.</span>
+                    <button class="btn-glassy">VIEW MORE</button>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- new arrivals -->
-    <div>
-        <div class="layout-db">
-            <div class="content d-flex flex-column h-400 layout-db mt-100 mb-100"></div>
+    <div class="sellers-products new-arrivals">
+        <div class="relative">
+            <div class="content d-flex flex-column align-center relative">
+                <h1 id="w-240">New Arrivals</h1>
+                <span>Brand new products from top designers</span>
+                <div class="prod-box d-flex">
+                    <div class="cell-5">
+                        <img src="../../public/assets/images/black_elegant_leather_jacket.jpg" alt="p1">
+                    </div>
+                    <div class="cell-5">
+                        <img src="../../public/assets/images/hipster_black_top.jpg" alt="p2">
+                    </div>
+                    <div class="cell-5">
+                        <img src="../../public/assets/images/black_leather_suit.jpg" alt="p3">
+                    </div>
+                    <div class="cell-5">
+                        <img src="../../public/assets/images/spring_printed_dress.jpg" alt="p4">
+                    </div>
+                    <div class="cell-5">
+                        <img src="../../public/assets/images/modern_love_tee.jpg" alt="p5">
+                    </div>
+                </div>
+            </div>
+            <button class="btn-next">></button>
+            <button class="btn-prev"><</button>
+
         </div>
     </div>
 
     <!-- quote -->
-    <div>
+    <div class="quote-jumbo">
         <div class="container1200">
-            <div class="content d-flex flex-column h-400 layout-db"></div>
+            <div class="content d-flex flex-column align-center">
+                <img src="../../public/assets/images/man_testimonial.png" alt="asd">
+                <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, debitis facere dicta nam distinctio adipisci dolor cumque voluptatibus, quos fugit veritatis officiis dignissimos perferendis, iure veniam repellendus. Neque, iste eaque!</em></p>
+                <p><span>Darìo Pineda,</span> Theme fusion</p>
+                <div class="d-flex">
+                    <div class="circle full"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -157,11 +219,6 @@ export default {
     padding: 100px 0;
 }
 
-.box{
-    height: 300px;
-    width: calc(100% / 2);
-}
-
 .brand-jumbo{
     background-image: url(../../public/assets/images/home1_slide_three_bg_2.jpg);
     background-size: contain;
@@ -187,7 +244,7 @@ export default {
     }
 }
 
-.featured-products{
+.featured-products, .sellers-products{
     padding: 100px 0;
     position: relative;
 
@@ -270,7 +327,7 @@ export default {
     .content{
         img{
             width: 100%;
-            height: 500px;
+            aspect-ratio: 1/1;
             object-fit: cover;
         }
 
@@ -298,6 +355,133 @@ export default {
             }
         }
 
+    }
+}
+
+.sellers-products{
+    .cell-5{
+        width: calc(100% / 5);
+        flex-direction: column;
+
+        img{
+            object-fit: contain;
+            width: 100%;
+        }
+
+        h4{
+            margin-top: 20px;
+        }    
+
+        span {
+            margin-top: 10px;
+            color: variables.$mylightgrey;
+        }
+    }
+    .btn-next, .btn-prev{
+        background-color: variables.$mylightgrey;
+        color: white;
+        height: 50px;
+        width: 25px;
+        border: none;
+        position: absolute;
+    }
+
+    .btn-prev{
+        top: 50%;
+    }
+
+    .btn-next{
+        top: 50%;
+        right: 0;
+    }
+}
+
+#w-240{
+    width: 240px;
+    top: -20px;
+}
+
+.jumbo-confetti{
+    height: 400px;
+    background-image: url(../../public/assets/images/bkgd_confetti-compressor.jpg);
+    object-fit: scale-down;
+    background-position: center;
+
+    .col-12{
+        padding: 50px 0;
+        justify-content: center;
+    }
+
+    .box{
+        height: 300px;
+        width: 450px;
+        flex-direction: column;
+        padding: 0 50px;
+        justify-content: center;
+
+        h1{
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        span{
+            color: variables.$almostwhite;
+            margin-bottom: 15px;
+        }
+
+        .btn-glassy{
+            width: 120px;
+            padding: 10px 0;
+        }
+    }
+
+    .box-discount{
+        background-image: url(../../public/assets/images/promo_box_1_bg.jpg);
+        background-size: cover;
+    }
+
+    .box-freeshipping{
+        background-image: url(../../public/assets/images/promo_box_2_bg.jpg);
+        background-size: cover;
+    }
+}
+
+.quote-jumbo {
+    background-image: url(../../public/assets/images/testimonials_home_1_bg.jpg);
+    height: 450px;
+    background-size: cover;
+    background-position: 0px 120px;
+
+
+    img{
+        width: 80px;
+        margin: 80px 0 25px 0;
+    }
+
+    p{
+        color: variables.$almostwhite;
+        text-align: center;
+        margin-bottom: 25px;
+        width: 800px;
+        line-height: 1.5;
+        
+        span{
+            color: white;
+            font-weight: bolder;
+            font-size: 12pt;
+        }
+    }
+
+    .circle{
+        width: 12px;
+        height: 12px;
+        border: 1px solid white;
+        border-radius: 30px;
+    }
+
+    .full{
+        background-color: white;
+        margin-right: 10px;
     }
 }
 
