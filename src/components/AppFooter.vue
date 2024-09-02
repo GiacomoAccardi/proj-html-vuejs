@@ -7,11 +7,17 @@ export default {
 <template>
 <footer>
     <!-- brand logos -->
-     <div>
+     <div class="bg-light">
         <div class="container1200">
-            <div class="content d-flex wrap">
-                <div class="col-12 h-50 layout-db"></div>
-                <div class="col-12 h-100 layout-db"></div>
+            <div class="content d-flex flex-column">
+                <span>BRAND LOGOS</span>
+                <div class="d-flex around">
+                    <img src="../../public/assets/images/b_logotype_6.png" alt="">
+                    <img src="../../public/assets/images/b_logotype_7.png" alt="">
+                    <img src="../../public/assets/images/b_logotype_1.png" alt="">
+                    <img src="../../public/assets/images/b_logotype_2.png" alt="">
+                    <img src="../../public/assets/images/b_logotype_3.png" alt="">
+                </div>
             </div>
         </div>
      </div>
@@ -55,5 +61,26 @@ export default {
 
 .h-75{
     height: 75px;
+}
+
+.bg-light{
+    background-color: variables.$almostwhite;
+    height: 250px;
+
+    .content{
+        height: 250px;
+        align-items: center;
+        justify-content: center;
+
+        span{
+            color: variables.$mygrey;
+            margin-bottom: 10px;
+        }
+
+        .around{
+            width: 100%;
+            justify-content: space-around;
+        }
+    }
 }
 </style>
