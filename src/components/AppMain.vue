@@ -192,19 +192,210 @@ export default {
     </div>
 
     <!-- from our blog -->
-    <div>
-        <div>
-            <div class="container1200">
-                <div class="content d-flex flex-column h-400 layout-db mt-100"></div>
+    <div class="sellers-products from-ourblog">
+        <div class="container1200 relative">
+            <div class="content d-flex flex-column align-center relative">
+                <h1 id="w-300">From Our Blog</h1>
+                <span>The latest Classic Shop news</span>
+                <div class="prod-box d-flex">
+                    <div class="col-4 d-flex flex-column">
+                        <img src="../../public/assets/images/post_img_12-700x441.jpg" alt="1">
+                        <h4>Lorem ipsum dolor amet consectetur</h4>
+                        <span>September 9th, 2015 | 0 Comments</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repellendus ipsa deserunt commodi officiis, consequatur dolor facere, ratione quas, similique</p>
+                    </div>
+                    <div class="col-4 d-flex flex-column">
+                        <img src="../../public/assets/images/post_img_11-700x441.jpg" alt="2">
+                        <h4>Molestias repellendus ipsa</h4>
+                        <span>September 9th, 2015 | 0 Comments</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repellendus ipsa deserunt commodi officiis, consequatur dolor facere, ratione quas, similique</p>
+                    </div>
+                    <div class="col-4 d-flex flex-column">
+                        <img src="../../public/assets/images/post_img_10-700x441.jpg" alt="3">
+                        <h4>consequatur dolor adipisicing elit</h4>
+                        <span>September 9th, 2015 | 0 Comments</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repellendus ipsa deserunt commodi officiis, consequatur dolor facere, ratione quas, similique</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
+    <hr>
+
     <!-- featured, on sale, top rated, latest reviews -->
-                <!--popolerò dinamicamente questa sezione-->
-    <div>
+    <div class="featured">
         <div class="container1200">
-            <div class="content d-flex flex-column h-400 layout-db"></div>
+            <div class="content d-flex">
+                <div class="col-3">
+                    <div class="mb-40"><span class="title">FEATURED</span></div>
+                    
+                    <div class="prod-cell">
+                        <div class="d-flex flex-column">
+                            <span>Black Jacket <span class="price"> $125</span></span>
+                        </div>
+                        <img src="../../public/assets/images/black_leather_jacket-120x156.jpg" alt="">
+                    </div>
+
+                    <div class="prod-cell">
+                        <div class="d-flex flex-column">
+                            <span>Black Leather Jacket</span>
+                            <div class="stars d-flex">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="price"><span class="line-through">$235 </span>$200</span>
+                        </div>
+                        <img src="../../public/assets/images/black_elegant_leather_jacket-120x156.jpg" alt="">
+                    </div>
+
+                    <div class="prod-cell">
+                        <div class="d-flex flex-column">
+                            <span>Hipster Black Top <span class="price"> $57</span></span>
+                        </div>
+                        <img src="../../public/assets/images/hipster_black_top-120x156.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="mb-40"><span class="title">ON SALE</span></div>
+
+                    <div class="prod-cell">
+                        <div class="d-flex flex-column">
+                            <span>Black Leather Jacket</span>
+                            <div class="stars d-flex">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="price"><span class="line-through">$235 </span>$200</span>
+                        </div>
+                        <img src="../../public/assets/images/black_elegant_leather_jacket-120x156.jpg" alt="">
+                    </div>
+
+                    <div class="prod-cell">
+                        <div class="d-flex flex-column">
+                            <span class="mb-20">Blue Leather Jacket <span class="price line-through"> $80</span></span>
+                            <span class="price under-line">$60</span>
+                        </div>
+                        <img src="../../public/assets/images/blue_leather_jacket-120x156.jpg" alt="">
+                    </div>
+
+                    <div class="prod-cell">
+                        <div class="d-flex flex-column">
+                            <span class="mb-20">Modern Leather Boots <span class="price line-through"> $50</span></span>
+                            <span class="price under-line">$30</span>
+                        </div>
+                        <img src="../../public/assets/images/modern_leather_boots-120x156.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="mb-40"><span class="title">TOP RATED</span></div>
+
+                    <div class="prod-cell">
+                        <div class="d-flex flex-column">
+                            <span>Leather Gloves</span>
+                            <div class="stars d-flex">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="price">$45</span>
+                        </div>
+                        <img src="../../public/assets/images/leather_gloves-120x156.jpg" alt="">
+                    </div>
+
+                    <div class="prod-cell">
+                        <div class="d-flex flex-column">
+                            <span>Black Leather Jacket</span>
+                            <div class="stars d-flex">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="price"><span class="line-through">$235 </span>$200</span>
+                        </div>
+                        <img src="../../public/assets/images/black_elegant_leather_jacket-120x156.jpg" alt="">
+                    </div>
+
+                    <div class="prod-cell">
+                        <div class="d-flex flex-column">
+                            <span>spring Printed Dress</span>
+                            <div class="stars d-flex">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="price">$47</span>
+                        </div>
+                        <img src="../../public/assets/images/spring_printed_dress-120x156.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="mb-40"><span class="title">LATEST REVIEWS</span></div>
+
+                    <div class="prod-cell">
+                        <div class="d-flex flex-column">
+                            <span>Black Leather Jacket</span>
+                            <div class="stars d-flex">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="price"><span class="line-through">$235 </span>$200</span>
+                            <span class="user">By Admin</span>
+                        </div>
+                        <img src="../../public/assets/images/black_elegant_leather_jacket-120x156.jpg" alt="">
+                    </div>
+
+                    <div class="prod-cell">
+                        <div class="d-flex flex-column">
+                            <span>Leather Gloves</span>
+                            <div class="stars d-flex">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="price">$45</span>
+                            <span class="user">By Beardman</span>
+                        </div>
+                        <img src="../../public/assets/images/leather_gloves-120x156.jpg" alt="">
+                    </div>
+
+                    <div class="prod-cell">
+                        <div class="d-flex flex-column">
+                            <span>spring Printed Dress</span>
+                            <div class="stars d-flex">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="price">$47</span>
+                            <span class="user">By Admin</span>
+                        </div>
+                        <img src="../../public/assets/images/spring_printed_dress-120x156.jpg" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -482,6 +673,85 @@ export default {
     .full{
         background-color: white;
         margin-right: 10px;
+    }
+}
+
+.from-ourblog{
+
+    #w-300{
+        width: 300px;
+        top: -20px;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .col-4{
+        padding: 20px;
+
+        h4{
+            margin: 20px 0;
+        }
+
+        span{
+            margin: -10px 0 20px 0;
+        }
+
+        span, p{
+            color: variables.$mylightgrey;
+        }
+    }
+}
+
+.featured{
+    .container1200{
+        display: flex;
+        align-items: center;
+    }
+
+    .content{
+        padding: 100px 0;
+        gap: 60px;
+
+        .mb-40{
+            margin-bottom: 40px;
+        }
+
+        span{
+            color: variables.$mygrey;
+
+        }
+
+        .price{
+            color: black;
+            font-weight: bolder;
+        }
+
+        .line-through{
+            text-decoration: line-through;
+        }
+
+        .under-line{
+            text-decoration: underline;
+        }
+
+        .prod-cell{
+            display: flex;
+            border-bottom: 1px solid variables.$mylightgrey;
+            justify-content: space-between;
+            padding-bottom: 10px;
+            margin: 15px 0;
+
+            img{
+                width: 60px;
+            }
+
+            .user{
+                color: variables.$mylightgrey;
+                margin: 5px 0 0 0;
+            }
+        }
     }
 }
 
