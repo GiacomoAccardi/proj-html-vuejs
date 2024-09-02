@@ -46,19 +46,23 @@ export default{
 
       footerMenu: [
         {
-          name: "",
+          id: 1,
+          name: "© Copyright 2012 - 2020 |",
           url: "#"
         },
         {
-          name: "",
+          id: 2,
+          name: "Avada Theme by Theme Fusion |",
           url: "#"
         },
         {
-          name: "",
+          id: 3,
+          name: "All Rights Reserved |",
           url: "#"
         },
         {
-          name: "",
+          id: 4,
+          name: "Powered by WordPress",
           url: "#"
         },
       ],
